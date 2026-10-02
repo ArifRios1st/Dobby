@@ -6,6 +6,9 @@ on:
       - master
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 env:
   CMAKE_VERSION: 3.25.2
   LLVM_VERSION: 15.0.6
